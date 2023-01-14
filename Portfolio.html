@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <div class="title">
+        <nav>
+            <img src="file:///C:/Users/SUJEET/Desktop/Anurag/AnuragLogo.png" width="60"   height="60" class="Logo" alt="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">HIRE ME</a></li>
+                <li><a href="#">FEEDBACK</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h2>Hello,</h2>
+            <h1>I'm Anurag <span> Rawane </span></h1>
+            <div class="text-3">And I'm a <span class="typing"></span></div>
+            <a href="#">Download CV</a>
+        </div>
+        <div class="image">
+            <img src="file:///C:/Users/SUJEET/Desktop/Anurag/goku.jpg" class= 'Goku' alt="Me">
+        </div>
+    </div>
+    
+    <div class="card">
+                    <div class="box">
+                        <span><i class="fas fa-paint-brush"></i></span>
+                        <div class="text">Web Designer</div>
+                        <span class="service_button">View More <i class="uil uil-arrow-right service_button-icon"></i></span>
+                        
+                        <div class="service_modal">
+                            <div class="service_modal-content">
+                                <i class="uil uil-times service_modal-close"></i>
+                                    
+                                    <h3 class="service_modal-title">Web Designer</h3>
+                                    <p class="service_modal-description">Services more that 2 years of hands on experience</p>
+                                        <ul class="service_modal-service-grid">
+                                            <li class="service_modal-services">
+                                                <i class="uil uil-check-circle service_modal-icon"></i>
+                                                <p class="service_modal-info">Developing UI</p>
+                                            </li>
+                                            <li class="service_modal-services">
+                                                <i class="uil uil-check-circle service_modal-icon"></i>
+                                                <p class="service_modal-info">Developing UI</p>
+                                            </li>
+                                            <li class="service_modal-services">
+                                                <i class="uil uil-check-circle service_modal-icon"></i>
+                                                <p class="service_modal-info">Developing UI</p>
+                                            </li>
+                                            <li class="service_modal-services">
+                                                <i class="uil uil-check-circle service_modal-icon"></i>
+                                                <p class="service_modal-info">Developing UI</p>
+                                            </li>
+                                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <span class="Sphere"></span>
+
+    <!-- Including the TagCloud.js script CDN in the document    -->
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    <script>
+        const Texts = [
+            'HTML', 'CSS', 'JAVASCRIPT',
+            'SWIFT', 'MONGOOSE', 'REACT',
+            'PYTHON', 'SASS',
+            'DJANGO', 'NODEJS', 'MONGODB',
+            'EXPRESS', 'MYSQL', 'JQUERY', 'JAVA'
+        ];
+
+        var tagCloud = TagCloud('.Sphere', Texts, {
+
+            // Sphere radius in px
+            radius: 300,
+
+            // animation speed
+            // slow, normal, fast
+            maxSpeed: 'fast',
+            initSpeed: 'fast',
+
+            // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+            direction: 360,
+
+            // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+            keep: true
+
+        });
+
+        // Giving color to each text in sphere
+        var color = '#FF5733 ';
+        document.querySelector('.Sphere').style.color = color;
+    </script>
+</body>
+</html>

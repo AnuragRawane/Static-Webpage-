@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurag Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <nav>
+            <img src="file:///C:/Users/SUJEET/Desktop/Anurag/AnuragLogo.png" width="50"   height="50" class="Logo" alt="logo">
+            
+                <a href="#">HOME</a>|
+                <a href="#">ABOUT</a>|
+                <a href="#">HIRE ME</a>|
+                <a href="#">FEEDBACK</a>|
+        
+        </nav>
+    </div>
+    <!-- <h1>Welcome to my Portfolio</h1>
+    <hr>
+    <h3><u><b>Profile</b></u></h3>
+    <p><b><i>Seeking a deserving profile in your company, where I can deliver my best with good
+        interpersonal skills, while maintaining the integrity and work ethics of the working
+        environment.</i></b></p>
+        <hr>
+        <h3><u><b>Work Experience</b></u></h3>
+        <p><b><i>Total 1+ Year of Experience in Operation Managment</i></b></p>
+        <hr>
+        <h3><u><b>Hobbies</b></u></h3>
+<p><i><b> Musical Instruments like Guitar, Synthesizer, Congo, Bongo.</b></i></p> -->
+</body>
+</html>
